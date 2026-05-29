@@ -19,6 +19,19 @@ const name3inp = document.querySelector("#name3inp")
 const name4inp = document.querySelector("#name4inp")
 const nameBoxes = document.querySelector("#nemecont")
 
+ii=-100
+
+
+setInterval(() => {
+    ii--
+    loading.style.backgroundPosition = ii +"px"
+}, 20);
+
+
+// for(let k = 0 ; k=250 ;k++){
+//     loading.style.backgroundPosition = ii +"px"
+// }
+
 
 
 let game_mode = null
