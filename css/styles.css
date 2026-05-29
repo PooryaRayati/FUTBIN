@@ -1,8 +1,9 @@
 @font-face {
     font-family: "Vazir";
     src: url(../vazir-font-v16.1.0/Vazir-Medium.woff2);
-    
+
 }
+
 
 body {
     direction: rtl;
@@ -103,8 +104,8 @@ button {
     width: 100%;
 }
 
-.box-Palyer h3{
-    border:1px solid #ffffff;
+.box-Palyer h3 {
+    border: 1px solid #ffffff;
     border-radius: 10px;
     padding: 10px;
     animation: shake 1s ease alternate infinite;
@@ -112,8 +113,13 @@ button {
 }
 
 @keyframes shake {
-    from{rotate: -2deg;}
-    to{rotate: 2deg;}
+    from {
+        rotate: -2deg;
+    }
+
+    to {
+        rotate: 2deg;
+    }
 }
 
 .box-Palyer button {
@@ -136,13 +142,13 @@ button {
     color: #ff0000;
 }
 
-.boxes{
+.boxes {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#submit{
+#submit {
     background-color: rgb(0, 131, 131);
     border: none;
     border-radius: 10px;
@@ -152,26 +158,27 @@ button {
     margin-bottom: 5px;
 }
 
-.bg_sub{
+.bg_sub {
     background-color: #424242;
     display: flex;
     width: 50%;
     border-radius: 10px;
-    
+
 }
 
-#submit:hover{
+#submit:hover {
     transition: 0.5s all;
     margin-right: 0px;
     margin-bottom: 0px;
 }
-#submit:not(:hover){
+
+#submit:not(:hover) {
     transition: 0.5s all;
     margin-right: 5px;
     margin-bottom: 5px;
 }
 
-.sub{
+.sub {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -179,7 +186,7 @@ button {
     height: 100px;
 }
 
-.loading{
+.loading {
     display: none;
     flex-direction: column;
     position: fixed;
@@ -196,7 +203,7 @@ button {
     background-position: center;
 }
 
-.circle{
+.circle {
     width: 50px;
     height: 50px !important;
     position: absolute;
@@ -210,18 +217,35 @@ button {
 }
 
 @keyframes load {
-    0%{rotate: 0deg;}
-    20%{rotate: 80deg;}
-    40%{rotate: 160deg;}
-    60%{rotate: 240deg;}
-    80%{rotate: 320deg;}
-    100%{rotate: 360deg;}
+    0% {
+        rotate: 0deg;
+    }
+
+    20% {
+        rotate: 80deg;
+    }
+
+    40% {
+        rotate: 160deg;
+    }
+
+    60% {
+        rotate: 240deg;
+    }
+
+    80% {
+        rotate: 320deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
 
 
 }
 
 
-.teamsheat{
+.teamsheat {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -229,7 +253,7 @@ button {
     width: 100%;
 }
 
-.forward div{
+.forward div {
     background-color: #424242;
     position: absolute;
     width: 120px;
@@ -241,16 +265,16 @@ button {
     z-index: 1;
 }
 
-.forward{
+.forward {
     display: flex;
     position: relative;
     justify-content: space-around;
     width: 80%;
     height: 200px;
-    
+
 }
 
-.middel div{
+.middel div {
     background-color: #424242;
     position: absolute;
     width: 120px;
@@ -262,7 +286,7 @@ button {
     z-index: 1;
 }
 
-.middel{
+.middel {
     display: flex;
     position: relative;
     justify-content: space-around;
@@ -272,21 +296,21 @@ button {
     margin-bottom: 55px;
 }
 
-.middel span{
+.middel span {
     position: absolute;
     bottom: -40px;
     font-size: 25px;
     color: #15ff00;
 }
 
-.forward span{
+.forward span {
     position: absolute;
     bottom: -40px;
     font-size: 25px;
     color: #ff0000;
 }
 
-.deffense div{
+.deffense div {
     background-color: #424242;
     position: absolute;
     width: 120px;
@@ -298,23 +322,23 @@ button {
     z-index: 1;
 }
 
-.deffense{
+.deffense {
     display: flex;
     position: relative;
     justify-content: space-around;
     width: 80%;
     height: 200px;
-    
+
 }
 
-.deffense span{
+.deffense span {
     position: absolute;
     bottom: -40px;
     font-size: 25px;
     color: #008cff;
 }
 
-.golekeeper div{
+.golekeeper div {
     background-color: #424242;
     position: absolute;
     width: 120px;
@@ -326,7 +350,7 @@ button {
     z-index: 1;
 }
 
-.golekeeper{
+.golekeeper {
     display: flex;
     position: relative;
     justify-content: space-around;
@@ -336,86 +360,100 @@ button {
     margin-bottom: 100px;
 }
 
-.golekeeper span{
+.golekeeper span {
     position: absolute;
     bottom: -40px;
     font-size: 25px;
     color: #fbff00;
 }
 
-.LW{
+.LW {
     left: 0;
     bottom: 0;
     background-size: cover;
-    
+
 }
 
-.CF{
+.CF {
     background-size: cover;
 }
 
-.CMA{
+.CMA {
     background-size: cover;
 }
 
-.RW{
+.RW {
     right: 0;
     bottom: 0;
     background-size: cover;
 }
 
-.CM1{
+.CM1 {
     left: 0;
     bottom: 0;
     background-size: cover;
 }
 
-.CM2{
+.CM2 {
     right: 0;
     bottom: 0;
     background-size: cover;
 }
 
-.LB{
+.LB {
     left: 0;
     background-size: cover;
 }
 
-.RB{
+.RB {
     right: 0;
     background-size: cover;
-    
+
 }
 
-.CB1{
+.CB1 {
     left: 30%;
     background-size: cover;
     bottom: -20px;
 }
 
-.CB2{
+.CB2 {
     right: 30%;
     background-size: cover;
     bottom: -20px;
 }
 
-.GK{
+.GK {
     background-size: cover;
 }
 
 
 
-@keyframes show{
-    from{opacity: 0;transform: translateY(200px);width: 5%;}
-    to{opacity: 1;transform: translateY(0px);width: 70%;}
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: translateY(200px);
+        width: 5%;
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+        width: 70%;
+    }
 }
 
-@keyframes show_cards{
-    from{opacity: 0;}
-    to{opacity: 1;}
+@keyframes show_cards {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
-.random_Counter{
+.random_Counter {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -427,7 +465,7 @@ button {
     animation: show 2s ease alternate;
 }
 
-.random_box{
+.random_box {
     width: 150px;
     height: 214px;
 
@@ -437,7 +475,7 @@ button {
     display: none;
 }
 
-.bg{
+.bg {
     display: flex;
     display: none;
     align-items: center;
@@ -453,12 +491,17 @@ button {
 
 
 
-@keyframes show2{
-    from{opacity: 0;}
-    to{opacity: 1;}
+@keyframes show2 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
-.random_Counter1{
+.random_Counter1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -469,10 +512,10 @@ button {
     height: 300px;
     border-radius: 20px;
     animation: show 2s ease alternate;
-    
+
 }
 
-.random_box1{
+.random_box1 {
     width: 150px;
     height: 214px;
 
@@ -482,7 +525,7 @@ button {
     display: none;
 }
 
-.bg1{
+.bg1 {
     display: flex;
     display: none;
     align-items: center;
@@ -496,7 +539,7 @@ button {
     animation: show2 1s ease alternate;
 }
 
-.Sub div{
+.Sub div {
     background-color: #424242;
     width: 120px;
     height: 168px;
@@ -508,7 +551,7 @@ button {
     z-index: 1;
 }
 
-.Logo{
+.Logo {
     background-color: #424242;
     width: 200px;
     height: 168px;
@@ -521,7 +564,7 @@ button {
     background-position: center;
 }
 
-.head{
+.head {
     background-size: cover;
     /* background-image: url(../images/Liverpool.jpg); */
     /* background-image: src(../images/Liverpool.jpg); */
@@ -534,14 +577,14 @@ button {
     background-color: #222222d0
 }
 
-.head h1{
+.head h1 {
     color: #ffffff;
     background-color: #2222229a;
     border-radius: 10px;
     padding: 10px;
 }
 
-.Sub{
+.Sub {
     display: flex;
     position: relative;
     justify-content: space-around;
@@ -552,7 +595,7 @@ button {
 }
 
 
-.SUB_BOX{
+.SUB_BOX {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -565,30 +608,30 @@ button {
 
 }
 
-.s1{
+.s1 {
     background-size: cover;
 }
 
-.s2{
+.s2 {
     background-size: cover;
 }
 
-.s3{
+.s3 {
     background-size: cover;
 }
 
-.s4{
+.s4 {
     background-size: cover;
 }
 
-.s5{
+.s5 {
     background-size: cover;
 }
 
 
 
 
-.mute{
+.mute {
     position: absolute;
     top: 30px;
     right: 20px;
@@ -609,7 +652,7 @@ button {
     color: #ffffff;
 }
 
-.skip{
+.skip {
     display: flex;
     align-items: center;
     position: absolute;
@@ -618,7 +661,7 @@ button {
     gap: 20px;
 }
 
-.skip  div{
+.skip div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -639,9 +682,9 @@ button {
     color: #ffffff;
 }
 
-.change_PDF{
-    background: #0b875b; 
-    color:#fff;
+.change_PDF {
+    background: #0b875b;
+    color: #fff;
     width: 200px;
     height: 70px;
     position: absolute;
@@ -651,7 +694,7 @@ button {
     border-radius: 20px;
 }
 
-.creator{
+.creator {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -663,17 +706,23 @@ button {
     border: 3px solid #ffffff;
     opacity: 0.9;
     padding-inline: 20px;
-    animation: crator_anim 2s ease alternate ;
+    animation: crator_anim 2s ease alternate;
 }
 
 @keyframes crator_anim {
-    from{transform: translateX(200px);}
-    to{transform: translateX(-80px);transform: rotate(-90deg);}
+    from {
+        transform: translateX(200px);
+    }
+
+    to {
+        transform: translateX(-80px);
+        transform: rotate(-90deg);
+    }
 }
 
 
-.inp{
-    
+.inp {
+
     align-items: center;
     justify-content: center;
     position: fixed;
@@ -685,10 +734,10 @@ button {
     border-radius: 0px 0px 20px 20px;
     z-index: 2;
 
-    
+
 }
 
-#inp1{
+#inp1 {
     border-radius: 20px;
     width: 80%;
     height: 30px;
@@ -696,14 +745,14 @@ button {
     padding-inline: 10px;
 }
 
-.nameBoxes{
+.nameBoxes {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
 
-.nameBox input{
+.nameBox input {
     width: 100px;
     height: 30px;
     font-size: 20px;
@@ -714,18 +763,18 @@ button {
     border: 1px solid #fbff00;
 }
 
-.nameBox{
+.nameBox {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.nameBox h5{
+.nameBox h5 {
     margin-bottom: 5px;
     margin-top: 0px;
 }
 
-#nemecont{
+#nemecont {
     display: none;
 }
